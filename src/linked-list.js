@@ -1,4 +1,10 @@
 /* eslint-disable class-methods-use-this */
+class Node {
+  constructor(data) {
+    this.next = null;
+    this.data = data;
+  }
+}
 class LinkedList {
   constructor() {
     this.head = null;
@@ -9,7 +15,7 @@ class LinkedList {
   // If the list is empty, the new element is considered the tail as well as the head
   // If there is one element in the list before the new element is added, the new element becomes the tail of the list
   addToTail(value) {
-
+    let node = new Node()
   }
   // Removes the current head node from the list, replacing it with the next element in the list
   // Returns the value of the removed node
