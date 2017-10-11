@@ -1,10 +1,4 @@
 /* eslint-disable class-methods-use-this */
-class Node {
-  constructor(data) {
-    this.next = null;
-    this.data = data;
-  }
-}
 class LinkedList {
   constructor() {
     this.head = null;
